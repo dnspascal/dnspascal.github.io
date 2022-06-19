@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alumni-log-in</title>
+    </head>
+    <body style="background-color: midnightblue;">
+   <h2 style="color:azure; text-align: center;"><i>Sign-in to see the alumni data</i></h2>
+<div id="mgaya" style="border: 1px solid black; background-color: azure; border-radius: 10%; position:absolute; padding-top:10%; padding-left:10%; height:370px;  width:25%;left:450px; bottom:100px;">
+    <h1><i style="position: relative; left:15%; bottom:100px;">sign-in</i></h1>
+    <form method="POST" action="Alumniloginverification.php" style="position: relative; bottom:70px;">
+   <span style="position: relative; right:11%;">    Email:<input type="text" name="email"  required> </span> <br><br>
+    <span style="position: relative; right:37%;">   Year Of Enrollment:<input type="text" name="enroll"  required> </span> <br><br>
+    <span style="position:relative; left:2%;">    <input type="submit" name="submit" value="LOGIN"> </span>
+       <br><br> 
+       <p><a href="#" style="color:midnightblue;"> forget password?</a></p><br>
+<br>                   <button onclick="document.getElementById('mgaya').style.display='none'">cancel</button>
+    </form>
+</div>
+</body>
+</html>

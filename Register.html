@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Register-at-Ilboru</title>
+
+    </head>
+    <body bgcolor="midnightblue">
+        <div >
+        
+            <button style="background-color: midnightblue;">   <a href="index.html" style="color:yellow; font-size: 35px; font-style:normal; text-decoration: none;">HOME</a> </button> 
+            <button style="background-color: midnightblue;">   <a href="About.html" style="color:yellow; text-decoration: none">GO TO ABOUT</a> </button> 
+            <button style="background-color: midnightblue;">   <a href="Alumni.html" style="color:yellow; text-decoration: none">GO TO ALUMNI</a> </button> 
+            <button style="background-color: midnightblue;">   <a href="staff.html" style="color:yellow; text-decoration: none">GO TO STAFF</a> </button> 
+            <button style="background-color: midnightblue;">   <a href="Contacts.html" style="color:yellow; text-decoration: none">GO TO CONTACTS</a> </button> 
+        </div><br>
+        
+        <div align="center" style="border:2px solid black; border-radius:2%; height:550px; width:1060px; background-color: azure;">
+        <h1 align="center">Register at Ilboru</h1>
+        <form align="center" method="POST" action="Registerconnect.php" style="background-color: azure;">
+            <label for="fname" >First name:</label>
+            <input type="text" name="Firstname" id="fname" required ><br><br>
+       <span style="position:relative; right:0.9%;"><label for="mname">Middle name:</label>
+            <input type="text" name="Middlename" id="mname" required "><br><br></span>
+       <span style="position:relative; left:0.5%;">    <label for="sname">Surname:</label>
+              <input type="text" name="Surname" id="sname"  required><br><br></span>
+            <label for="uname">User name:</label>
+            <input type="text" name="Username" id="uname" required><br><br>
+     <span style="position:relative; right:2%;"> <label for="date">Date of birth:</label>
+            <input type="date" name="DateOfBirth" id="date" required><br><br></span>
+    <span style="position:relative; left:0.4%;">  <label for="pword">Password:</label>
+            <input type="password" name="Password" id="pword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+            title="password must contain at least a single digit" title="password must contain uppercase" title="password must contain lowercase" required><br><br></span>
+ <span style="position:relative; left:2.35%;"> <label for="cv">Upload CV file:</label>
+            <input type="file" name="file" id="cv"><br><br></span>
+        <p><b style="font-size:40px;">Contacts</b></p>
+            <div>
+    <span style="position:relative; right:1.5%;"><label for="pnumber">Phone number:</label>
+                <input type="text" name="Phonenumber" id="pnumber" maxlength="11" required></span><br><br>
+    <span style="position:relative; right:0.9%;"> <label for="email">Enter Email:</label>
+                <input type="email" name="Email" id="email" > </span><br><br>
+                <span style="position:relative; right:2.9%;">          <label for="Facebook">Facebook name:</label>
+                <input type="text" name="Facebook" id="Facebook" ></span>
+                <span style="position:relative; right:2.9%;">     <label for="insta">Instagram name:</label>
+              <input type="text" name="Instagram" id="insta"></span>
+                <label for="twitter">Twitter name:</label>
+                <input type="text" name="Twitter" id="twitter"><br><br>
+                
+                <input type="submit" name="submit" value="submit">
+            </div>
+        </div>
+
+        </form>
+        <br><br>
+        <h2 style="color:yellow;"><i><b>If already a member log in by clicking the button below</b></i></h2>
+        <p><strong><button style="background-color: azure;"><a href="Registerlogin.html" style="text-decoration:none; color:black;">SIGN IN</a> </button></strong></p>
+    </body>
+</html>
